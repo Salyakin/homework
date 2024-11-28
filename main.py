@@ -1,19 +1,30 @@
-# This is a sample Python script.
+# print ('Hello world!')
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# 1st program
+
+print (9**0.5*5)
+
+# 2nd program
+
+print (9.99 > 9.98 and 1000 != 1000.1)
+
+# 3rd program
+
+print (2*2+2)
+print (2*(2+2))
+print ((2*2+2) == (2*(2+2)))
+
+# Другое решение
+
+x=2*2+2
+y=2*(2+2)
+print (x)
+print (y)
+print (x == y)
+
+# 4th program
+
+str1 = '123.456'
+print (int(float(str1)*10)%10)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-print ("Меня зовут Иван")
-print ("Privet")
